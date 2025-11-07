@@ -27,20 +27,20 @@ header {
     transition: 0.5s;
 }
 
-#Highlights-section {
-    border: 2px solid orange;
+#highlights-section {
     width: 70%;
     margin: 0 auto;
 }
 
-#Highlights-section > h2 {
+#highlights-section > h2 {
     font-size: 50px;
     font-weight: 800;
     text-align: center;
+    text-shadow: 2px 2px 8px #af3d3d;
     margin-bottom: 25px;
 }
 
-#Highlights-section > p {
+#highlights-section > p {
     color: rgb(168, 162, 162);
     width: 50%;
     margin-top: 0;
@@ -48,4 +48,18 @@ header {
     margin-left: auto;
     margin-right: auto;
     text-align: center;
+}
+
+#buy-now-button {
+    display: flex;
+    justify-content: center;
+}
+
+#cover-image-section {
+    width: 70%;
+    margin: 50px auto;
+}
+
+#cover-image-section img {
+    width: 100%;
 }
