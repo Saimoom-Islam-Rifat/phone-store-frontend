@@ -63,3 +63,39 @@ header {
 #cover-image-section img {
     width: 100%;
 }
+
+#search-section {
+    width: 70%;
+    margin: 50px auto;
+}
+
+#search-section > h2 {
+    text-align: center;
+    border-bottom: 25px;
+}
+
+#search-container {
+    border: 2px solid black;
+    border-radius: 8px;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: lightyellow;
+    display: flex;
+    justify-content: space-between;
+}
+
+#search-bar {
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+#search-bar > input[type="text"] {
+    padding-left: 15px;
+    width: 90%;
+    border: none;
+    outline: none;
+    background-color: lightyellow;
+}
